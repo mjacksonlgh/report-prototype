@@ -1,0 +1,81 @@
+{ "rows":
+  [
+  {
+    "id": 0,
+    "name": "Bob Robinson",
+    "months": [
+      { 
+        "name": "2019-10",
+        "total": 90 
+      },
+      { 
+        "name": "2019-11",
+        "total": 50 
+      },
+      { 
+        "name": "2019-12",
+        "total": 180 
+      }
+    ],
+    "total": 240
+  },
+  {
+    "id": 1,
+    "name": "Sarah Wilson",
+    "months": [
+      { 
+        "name": "2019-10",
+        "total": 180 
+      },
+      { 
+        "name": "2019-11",
+        "total": 90
+      },
+      { 
+        "name": "2019-12",
+        "total": 90 
+      }
+    ],
+    "total": 280
+  },
+  {
+    "id": 2,
+    "name": "Hadesh Israh",
+    "months": [
+      { 
+        "name": "2019-10",
+        "total": 0 
+      },
+      { 
+        "name": "2019-11",
+        "total": 50 
+      },
+      { 
+        "name": "2019-12",
+        "total": 90 
+      }
+    ],
+    "total": 140
+  },
+  {
+    "id": 3,
+    "name": "Scott Kelley",
+    "months": [
+      { 
+        "name": "2019-10",
+        "total": 50 
+      },
+      { 
+        "name": "2019-11",
+        "total": 0 
+      },
+      { 
+        "name": "2019-12",
+        "total": 90 
+      }
+    ],
+    "total": 150
+  }
+],
+  "total": "4400"
+}

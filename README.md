@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+So here's my solution.  I used [Create React App](https://github.com/facebook/create-react-app), but outside of this included
+no additional libraries.  It would have been easier to sprinkly in npm libraries, but the instructions only indicated using
+React for the implementation.
+
+If I was creating an enterprise React app from scratch, I would instead use [JHipster](https://www.jhipster.tech/).  But it
+solves many more problems than we need to worry about for the use case so I went with the much simpler Create React App.
+
 
 ## Available Scripts
 

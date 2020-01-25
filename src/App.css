@@ -1,5 +1,44 @@
+tr.report-row:nth-child(even) {background: #777777}
+tr.report-row:nth-child(odd) {background: #cccccc}
+td {
+  padding-left: 1em;
+}
+th {
+  padding-left: 1em;
+}
+
+.report {
+  background-color: aliceblue;
+  padding-bottom: 0.8em;
+}
+
+.customer {
+  padding-left: 1em;
+}
+
+.report-table {
+  width: 100%;
+}
+
+.report-total {
+  font-weight: bold;
+  font-size: large;
+  padding-left: 20em;
+}
+
+.customer-total {
+  padding-left: 8em;
+}
+
+.month-table {
+  padding-left: 2em;
+}
+.month-table-container {
+  column-span: 2;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -9,7 +48,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 40s linear;
   }
 }
 
@@ -18,10 +57,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 1em;
 }
 
 .App-link {
