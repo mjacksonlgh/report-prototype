@@ -2,8 +2,9 @@ So here's my solution.  I used [Create React App](https://github.com/facebook/cr
 no additional libraries.  It would have been easier to sprinkle in npm libraries, but the instructions only indicated using
 React for the implementation.  I wenced at using &lt;table> tags at first, but last I recall these are still valid in the spec for displaying tabular data, which our report is doing.  In the real world, Bootstrap or a MUI Datatable or something would probably be more appropriate.
 
-If I was creating an enterprise React app from scratch, I would instead use [JHipster](https://www.jhipster.tech/).  But it
-solves many more problems than we need to worry about for the use case so I went with the much simpler Create React App.
+src/data/transactions.json has the transaction data as I would reasonably imagine it coming from an enterprise data store.  Typically this would come in a report ready format from an API, and maybe massaged further in a Reducer, but I figured part of the challenge was to see how I would transmography this data, so I did it manually.  If this was a large amount of data, further memory tuning would be recommended in the Report.getServiceData method.
+
+If I was creating a real-world enterprise React app from scratch, I would instead use [JHipster](https://www.jhipster.tech/).  Their Yeoman scaffolding does an excellent (and clean!) job ingesting a data model, generating the DDL with mechanized version control, entities, caching, optional service layer, self-documenting endpoints, Spring Boot config, authentication, RBAC, audit trail, admin interface, i18n, optimized production containers, your choice of monolithic or micro-service architectures, and your choice of a React, Angular, or Vue UI.  But it solves many more problems than we need to worry about for the use case so I went with the much simpler Create React App.
 
 
 ## Available Scripts
