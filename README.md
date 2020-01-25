@@ -6,6 +6,8 @@ src/data/transactions.json has the transaction data as I would reasonably imagin
 
 If I was creating a real-world enterprise React app from scratch, I would instead use [JHipster](https://www.jhipster.tech/).  Their Yeoman scaffolding does an excellent (and clean!) job ingesting a data model, generating the DDL with mechanized version control, entities, caching, optional service layer, self-documenting endpoints, Spring Boot config, authentication, RBAC, audit trail, admin interface, i18n, optimized production containers, your choice of monolithic or micro-service architectures, and your choice of a React, Angular, or Vue UI.  But it solves many more problems than we need to worry about for the use case so I went with the much simpler Create React App.
 
+To run:
+yarn start > http://localhost:3000/
 
 ## Available Scripts
 
